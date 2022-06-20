@@ -1,0 +1,3 @@
+.PHONY: fmt
+fmt: ## Run go fmt against code.
+	go fmt ./...
